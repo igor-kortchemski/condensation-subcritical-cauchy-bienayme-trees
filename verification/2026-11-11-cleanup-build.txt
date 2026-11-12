@@ -1,0 +1,45 @@
+ℹ [3478/3575] Replayed SubcriticalCauchy.StableLaplaceAux
+info: SubcriticalCauchy/StableLaplaceAux.lean:278:97: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+ℹ [3481/3575] Replayed SubcriticalCauchy.StableOneStepTail
+info: SubcriticalCauchy/StableOneStepTail.lean:468:64: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+ℹ [4059/4115] Replayed SubcriticalCauchy.HeightSecondOrder
+info: SubcriticalCauchy/HeightSecondOrder.lean:240:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [4098/4115] Built SubcriticalCauchy.PaperRoute.FinalProofTransfer (14s)
+✔ [4100/4115] Built SubcriticalCauchy.LateProofs.Cor41Aux (16s)
+ℹ [4104/4115] Replayed SubcriticalCauchy.ExampleScalesIIIAux
+info: SubcriticalCauchy/ExampleScalesIIIAux.lean:61:27: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: SubcriticalCauchy/ExampleScalesIIIAux.lean:334:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [4106/4115] Built SubcriticalCauchy.PaperRoute.BergerProofAux (19s)
+✔ [4107/4115] Built SubcriticalCauchy.PaperRoute.FinalProof (6.8s)
+✔ [4108/4115] Built SubcriticalCauchy.UnnumberedConsequencesAux (7.5s)
+✔ [4110/4115] Built SubcriticalCauchy.PaperRoute.BergerProofLower (6.3s)
+✔ [4111/4115] Built SubcriticalCauchy.PaperRoute.BergerFukNagaev (39s)
+✔ [4112/4115] Built SubcriticalCauchy.PaperRoute.BergerProof (37s)
+✔ [4113/4115] Built SubcriticalCauchy.PaperRoute.Statements (4.3s)
+✔ [4114/4115] Built SubcriticalCauchy (7.7s)
+Build completed successfully (4115 jobs).

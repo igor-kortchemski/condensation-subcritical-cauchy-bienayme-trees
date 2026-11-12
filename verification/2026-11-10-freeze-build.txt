@@ -1,0 +1,18 @@
+✔ [3330/3340] Built SubcriticalCauchy.FiniteTreeEvent (24s)
+✔ [3331/3340] Built SubcriticalCauchy.MainProofs.M3 (13s)
+✔ [3332/3340] Built SubcriticalCauchy.MainProofs.M5 (13s)
+✔ [3333/3340] Built SubcriticalCauchy.MainProofs.Theorem31 (13s)
+✔ [3334/3340] Built SubcriticalCauchy.MainProofs.M4 (14s)
+✔ [3335/3340] Built SubcriticalCauchy.MainProofs.M1 (7.5s)
+✔ [3336/3340] Built SubcriticalCauchy.MainProofs.M2 (7.9s)
+⚠ [3337/3340] Built SubcriticalCauchy.Theorem31 (7.9s)
+warning: SubcriticalCauchy/Theorem31.lean:39:8: declaration uses `sorry`
+⚠ [3338/3340] Built SubcriticalCauchy.MainTheorems (7.1s)
+warning: SubcriticalCauchy/MainTheorems.lean:38:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:47:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:56:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:64:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:73:8: declaration uses `sorry`
+✔ [3339/3340] Built SubcriticalCauchy (8.2s)
+Build completed successfully (3340 jobs).
+lake build SubcriticalCauchy  28.75s user 41.49s system 90% cpu 1:17.91 total

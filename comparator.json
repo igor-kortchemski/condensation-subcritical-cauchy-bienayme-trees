@@ -1,0 +1,29 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "SubcriticalCauchy.Bienayme.main_maxDegree_condensation",
+    "SubcriticalCauchy.Bienayme.main_secondMaxDegree_negligible",
+    "SubcriticalCauchy.Bienayme.main_maxDegreeDepth_geometric",
+    "SubcriticalCauchy.Bienayme.main_height_log",
+    "SubcriticalCauchy.Bienayme.main_height_tight_iff",
+    "SubcriticalCauchy.Bienayme.paper_deleted_maximum_tvDist",
+    "SubcriticalCauchy.Bienayme.paper_attached_forest_tvDist",
+    "SubcriticalCauchy.Bienayme.paper_height_lower",
+    "SubcriticalCauchy.Bienayme.paper_height_upper",
+    "SubcriticalCauchy.Bienayme.exists_cauchyOneLaw",
+    "SubcriticalCauchy.Bienayme.paper_stable_limit",
+    "SubcriticalCauchy.Bienayme.paper_maxDegree_fluctuations",
+    "SubcriticalCauchy.Bienayme.paper_height_second_order_log",
+    "SubcriticalCauchy.Bienayme.paper_height_second_order_pow",
+    "SubcriticalCauchy.Bienayme.berger_local_limit",
+    "SubcriticalCauchy.Bienayme.paper_eq26",
+    "SubcriticalCauchy.Bienayme.paper_eq33",
+    "SubcriticalCauchy.Bienayme.paper_route_deleted_maximum_tvDist",
+    "SubcriticalCauchy.Bienayme.paper_heavyTail_classification",
+    "SubcriticalCauchy.ArmendarizLoulakis.al_criterion"
+  ],
+  "definition_names": [],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}

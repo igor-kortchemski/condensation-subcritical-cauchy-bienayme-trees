@@ -1,0 +1,37 @@
+'SubcriticalCauchy.Bienayme.reverse_terminal_record_iff' depends on axioms: [propext, Quot.sound]
+'SubcriticalCauchy.Bienayme.nonnegative_prefix_iff_no_hit_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.firstHit_neg_one_eq_none_iff' depends on axioms: [propext, Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_reversal_record_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.totalProgeny' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.totalProgeny_eq_encard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.totalProgeny_eq_ncard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.totalProgeny_eq_tsum_generationSize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_totalProgeny' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_totalProgeny_subcritical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.passageSearch_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage_of_no_hit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkSum_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.neg_time_le_walkSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.exists_walkSum_eq_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.exists_walkSum_eq_of_negative_drift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_walkFirstPassage_ratio_ae_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.measurable_walkSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.measurable_walkFirstPassage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_walkFirstPassage_ratio_tendstoInMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

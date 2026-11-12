@@ -1,0 +1,2 @@
+'SubcriticalCauchy.Bienayme.deletionWithPosition_succ_atom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.deletionWithPosition_tvDist' depends on axioms: [propext, Classical.choice, Quot.sound]

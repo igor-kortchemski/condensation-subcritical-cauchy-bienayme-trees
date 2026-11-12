@@ -1,0 +1,11 @@
+Axiom audit passed: 107 project declarations, including 10 theorems; allowed axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.PlaneTree.weight_tilt' depends on axioms: [propext, Quot.sound]
+'SubcriticalCauchy.PlaneTree.finite_size_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.conditionedTreeOfPMF_tilt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.geometric_bounds_of_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.tendsto_one_sub_pow_of_mul_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.TiltingCounterexample.critical_equivalence_boundary_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

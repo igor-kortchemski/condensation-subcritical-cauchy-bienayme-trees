@@ -1,0 +1,27 @@
+name: Lean build and axiom audit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a
+      - uses: leanprover/lean-action@bd5cb0b830eda614ce3fc186d8429b9409b16c47
+        with:
+          build: 'true'
+          use-mathlib-cache: 'true'
+          test: 'false'
+          lint: 'false'
+      - name: Check transitive project axioms
+        run: lake env lean scripts/AxiomAudit.lean
+      - name: Replay project modules in Lean's kernel
+        env:
+          LEAN_NUM_THREADS: '2'
+        run: lake env leanchecker SubcriticalCauchy BGW

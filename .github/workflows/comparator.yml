@@ -1,0 +1,65 @@
+name: Comparator
+
+# Sandboxed Comparator (`lake comparator`) with NanoDa for the 20 statements of
+# comparator.json, after the build, source scan and axiom audit. Nothing is uploaded,
+# submitted or registered.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  comparator:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Free disk space
+        uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be # v1.3.1
+        with:
+          android: true
+          dotnet: true
+          haskell: true
+          docker-images: true
+          tool-cache: false
+          large-packages: false
+          swap-storage: false
+      - uses: leanprover/lean-action@fe408643ea7367d8c0404a8be3975bb145f5fb64
+        with:
+          auto-config: false
+          build: false
+      - name: Put the toolchain's own kernels on PATH
+        # `lake comparator` runs `nanoda_bin` from PATH. It ships in the pinned toolchain's
+        # `bin` directory, for which elan installs no proxy.
+        run: |
+          set -euo pipefail
+          toolchain_bin=$(dirname "$(elan which lean)")
+          test -x "$toolchain_bin/nanoda_bin"
+          echo "$toolchain_bin" >> "$GITHUB_PATH"
+      - name: Install the pinned Palomar Bubblewrap
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq meson ninja-build libcap-dev pkg-config apparmor
+          mkdir -p "$RUNNER_TEMP/downloads" "$RUNNER_TEMP/checkers"
+          curl --fail --location --silent --show-error --proto '=https' --tlsv1.2 --retry 3 \
+            --output "$RUNNER_TEMP/downloads/install_bwrap.sh" \
+            https://raw.githubusercontent.com/PalomarRegistry/PalomarSubmission/14aa8d6b3c2f14a8540605e37144560b9a00e7e7/scripts/install_bwrap.sh
+          printf '%s  %s\n' c290df6cebdf1cb26edb69ed4164d9551062bfeb65243b93d1d1d3b77eac0a35 \
+            "$RUNNER_TEMP/downloads/install_bwrap.sh" | sha256sum --check --quiet
+          comparator_bwrap=$(bash "$RUNNER_TEMP/downloads/install_bwrap.sh" "$RUNNER_TEMP/checkers/bwrap")
+          echo "$RUNNER_TEMP/checkers/bwrap" >> "$GITHUB_PATH"
+          echo "COMPARATOR_BWRAP=$comparator_bwrap" >> "$GITHUB_ENV"
+          "$comparator_bwrap" --unshare-all --new-session --die-with-parent \
+            --ro-bind / / --proc /proc --dev /dev -- /usr/bin/true
+      - name: Build, audit and run sandboxed Comparator with NanoDa
+        run: python3 -I scripts/verification.py linux "$RUNNER_TEMP/subcauchy-linux-checks"
+      - name: Keep exact-commit Linux diagnostics, including failures
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: subcauchy-linux-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/subcauchy-linux-checks
+          if-no-files-found: warn

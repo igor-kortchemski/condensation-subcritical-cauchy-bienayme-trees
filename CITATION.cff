@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  To cite the mathematics, cite the paper (preferred citation below). To cite
+  the formalization itself, cite this repository.
+title: "Condensation in subcritical Cauchy Bienaymé trees: Lean formalization"
+type: software
+authors:
+  - family-names: Kortchemski
+    given-names: Igor
+repository-code: https://github.com/igor-kortchemski/condensation-subcritical-cauchy-bienayme-trees
+license: Apache-2.0
+keywords:
+  - Lean 4
+  - Mathlib
+  - formalization
+  - Bienaymé trees
+  - condensation
+  - Cauchy domain of attraction
+abstract: >-
+  Lean 4 and Mathlib formalization of every result of "Condensation in
+  subcritical Cauchy Bienaymé trees" by Igor Kortchemski and Leonard Vetter,
+  four of them in corrected form, using only the axioms propext,
+  Classical.choice and Quot.sound. Produced with AI agents; the Lean kernel
+  checks the proofs.
+preferred-citation:
+  type: article
+  title: Condensation in subcritical Cauchy Bienaymé trees
+  authors:
+    - family-names: Kortchemski
+      given-names: Igor
+    - family-names: Vetter
+      given-names: Leonard
+  journal: Electronic Communications in Probability
+  volume: 30
+  year: 2025
+  number: 79
+  doi: 10.1214/25-ECP726
+  url: https://doi.org/10.1214/25-ECP726

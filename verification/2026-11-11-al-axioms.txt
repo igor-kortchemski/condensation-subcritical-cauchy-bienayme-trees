@@ -1,0 +1,1 @@
+'SubcriticalCauchy.ArmendarizLoulakis.al_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]

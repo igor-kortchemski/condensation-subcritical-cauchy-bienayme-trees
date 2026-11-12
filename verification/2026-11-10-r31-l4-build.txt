@@ -1,0 +1,10 @@
+⚠ [3333/3349] Replayed SubcriticalCauchy.Theorem31
+warning: SubcriticalCauchy/Theorem31.lean:39:8: declaration uses `sorry`
+⚠ [3343/3349] Replayed SubcriticalCauchy.MainTheorems
+warning: SubcriticalCauchy/MainTheorems.lean:62:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:70:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:79:8: declaration uses `sorry`
+✔ [3346/3349] Built SubcriticalCauchy.NoLargeJumpAux (16s)
+✔ [3347/3349] Built SubcriticalCauchy.NoLargeJump (17s)
+✔ [3348/3349] Built SubcriticalCauchy (5.4s)
+Build completed successfully (3349 jobs).

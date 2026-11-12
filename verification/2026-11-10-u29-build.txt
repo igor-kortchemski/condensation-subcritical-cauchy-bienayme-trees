@@ -1,0 +1,5 @@
+✔ [3323/3326] Built SubcriticalCauchy.IncrementTailAux (25s)
+✔ [3324/3326] Built SubcriticalCauchy.IncrementTailAsymptotics (6.7s)
+✔ [3325/3326] Built SubcriticalCauchy (5.6s)
+Build completed successfully (3326 jobs).
+lake build SubcriticalCauchy  31.16s user 22.71s system 105% cpu 50.947 total

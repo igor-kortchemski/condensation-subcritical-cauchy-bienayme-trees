@@ -1,0 +1,11 @@
+{
+  "mode": "compare",
+  "status": "passed",
+  "official_palomar_report": false,
+  "started_utc": "2026-11-11T17:12:56Z",
+  "challenge_sha256": "c1fd6d82ede784a08b31cfdc5d54f770a4cf1241be6debb5948f5f063b67e480",
+  "solution_sha256": "13f86da5153dae0586a00e45c6d395f085c84ded648662143503c39f4baee560",
+  "config_sha256": "6d89e15a5b3275c944ed9413557061f9aca36602ab59e7e041ec7299ff4425ba",
+  "exit_code": 0,
+  "completed_utc": "2026-11-11T17:19:04Z"
+}

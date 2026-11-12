@@ -1,0 +1,6 @@
+'SubcriticalCauchy.Bienayme.map_cond_excursionWords_decodeTree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.map_cond_countBridges_vervaatTree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

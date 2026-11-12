@@ -1,0 +1,7 @@
+'SubcriticalCauchy.ArmendarizLoulakis.al_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.berger_local_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.paper_eq26' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.paper_eq33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.paper_route_deleted_maximum_tvDist' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,11 @@
+'SubcriticalCauchy.Bienayme.etvDist_eq_tsum_enorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.tvDist_eq_tsum_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.etvDist_map_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.tvDist_map_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.tvDist_le_of_density_on_of_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.pi_incrementLaw_atom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.deletedIncrements_succ_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.deletedIncrements_succ_law_atom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.deletedIncrements_law_atom' depends on axioms: [propext, Classical.choice, Quot.sound]

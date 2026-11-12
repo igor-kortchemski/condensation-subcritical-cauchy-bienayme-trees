@@ -1,0 +1,9 @@
+⚠ [3353/3358] Replayed SubcriticalCauchy.MainTheorems
+warning: SubcriticalCauchy/MainTheorems.lean:62:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:70:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:79:8: declaration uses `sorry`
+✔ [3354/3358] Built SubcriticalCauchy.CyclicResidualTreeAux (17s)
+✔ [3355/3358] Built SubcriticalCauchy.PreorderHeight (20s)
+✔ [3356/3358] Built SubcriticalCauchy.CyclicResidualTree (22s)
+✔ [3357/3358] Built SubcriticalCauchy (18s)
+Build completed successfully (3358 jobs).

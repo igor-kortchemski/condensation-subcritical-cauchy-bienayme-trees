@@ -1,0 +1,12 @@
+source-scan command=/usr/bin/python3 -I scripts/check_sources.py
+source-scan exit=0
+source-scan seconds=0.204
+build command=lake build SubcriticalCauchy BGW Challenge Solution
+build exit=0
+build seconds=596.025
+axiom-audit command=lake env lean scripts/AxiomAudit.lean
+axiom-audit exit=0
+axiom-audit seconds=6.128
+official comparator command=lake comparator --config /home/runner/work/_temp/subcauchy-linux-checks/comparator.json
+official comparator exit=0
+official comparator seconds=228.765

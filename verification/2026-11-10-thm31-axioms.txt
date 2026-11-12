@@ -1,0 +1,4 @@
+
+'SubcriticalCauchy.Bienayme.paper_deleted_maximum_tvDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.main_maxDegree_condensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.main_secondMaxDegree_negligible' depends on axioms: [propext, Classical.choice, Quot.sound]

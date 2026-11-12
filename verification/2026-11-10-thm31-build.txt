@@ -1,0 +1,10 @@
+✔ [3345/3351] Built SubcriticalCauchy.MainProofs.Theorem31 (20s)
+✔ [3346/3351] Built SubcriticalCauchy.Theorem31 (5.2s)
+✔ [3347/3351] Built SubcriticalCauchy.MainProofs.M1 (5.8s)
+✔ [3348/3351] Built SubcriticalCauchy.MainProofs.M2 (5.5s)
+⚠ [3349/3351] Built SubcriticalCauchy.MainTheorems (5.5s)
+warning: SubcriticalCauchy/MainTheorems.lean:62:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:70:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:79:8: declaration uses `sorry`
+✔ [3350/3351] Built SubcriticalCauchy (5.2s)
+Build completed successfully (3351 jobs).

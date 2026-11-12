@@ -1,0 +1,7 @@
+✔ [3319/3324] Built SubcriticalCauchy.LatticeFourier (15s)
+✔ [3320/3324] Built SubcriticalCauchy.PotterBounds (18s)
+✔ [3321/3324] Built SubcriticalCauchy.LatticeConcentrationAux (5.9s)
+✔ [3322/3324] Built SubcriticalCauchy.LatticeConcentration (7.4s)
+✔ [3323/3324] Built SubcriticalCauchy (6.7s)
+Build completed successfully (3324 jobs).
+lake build SubcriticalCauchy  25.24s user 30.61s system 115% cpu 48.347 total

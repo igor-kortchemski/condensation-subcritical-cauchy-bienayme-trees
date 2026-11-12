@@ -1,0 +1,19 @@
+'SubcriticalCauchy.Bienayme.firstMaxIndex_degrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.length_cyclicResidual_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.sum_cyclicResidual_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.maxDegreeDepth_eq_weakRecordCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.firstHit_cyclicResidual_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.take_firstHit_eq_attachedForest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.exteriorSize_eq_lastZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.height_le_exteriorSize_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.firstHit_cyclicResidual_take_attachedForest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.take_firstHit_eq_attachedForest_take' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.preorder_height_eq_weakRecordCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

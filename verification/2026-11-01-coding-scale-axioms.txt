@@ -1,0 +1,76 @@
+Axiom audit passed: 887 project and vendored BGW declarations; allowed axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.PlaneTree.weight_tilt' depends on axioms: [propext, Quot.sound]
+'SubcriticalCauchy.PlaneTree.finite_size_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.conditionedTreeOfPMF_tilt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.geometric_bounds_of_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.tendsto_one_sub_pow_of_mul_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.TiltingCounterexample.critical_equivalence_boundary_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.conditioned_tilt_of_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_toReal_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_le_mean_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.ae_finite_of_subcritical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.toLocallyFinite_mem_survivalEvent_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_geometric_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_log_normalized_inv_div_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.forestBelow_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.forest_height_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.forestBelowReal_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.forestBelowReal_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.forestBelowReal_floor_tendsto_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.forestBelowReal_floor_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.tendsto_log_product_ceil_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.exists_eta_log_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_log_upper_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_log_lower_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.finite_forestHeightBand_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.forest_log_band_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.maxDegreeVertex_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.positiveAddress_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.attachedForestSlice_slot_present' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.height_fringe_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.conditioned_degree_pair_event' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survivalCorrection_eq_tsum_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.paper_survivalCorrection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.eventually_size_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.finiteWalkAverage_deviation_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.finitePreviousWalkAverage_deviation_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.scaling_div_nat_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.paper_centering_ratio_tendsto_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.mul_tail_div_tailMass_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.tailMass_floor_mul_div_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.maxDegree_eq_neg_deleted_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.incrementMaximum_deleted_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.finiteWalk_driftRatio_deviation_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.finiteMaximumAverage_deviation_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.finitePreviousMaximumAverage_deviation_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.IsMeasurableSubcriticalCauchyOffspring.to_literal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.SupercriticalTiltingCounterexample.supercritical_equivalence_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

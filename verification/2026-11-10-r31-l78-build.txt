@@ -1,0 +1,14 @@
+⚠ [3331/3344] Replayed SubcriticalCauchy.MainTheorems
+warning: SubcriticalCauchy/MainTheorems.lean:38:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:47:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:56:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:64:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:73:8: declaration uses `sorry`
+⚠ [3338/3344] Replayed SubcriticalCauchy.Theorem31
+warning: SubcriticalCauchy/Theorem31.lean:39:8: declaration uses `sorry`
+✔ [3340/3344] Built SubcriticalCauchy.TotalVariationTypical (11s)
+✔ [3341/3344] Built SubcriticalCauchy.InsertionCombinatorics (11s)
+✔ [3342/3344] Built SubcriticalCauchy.DeletedMaximumDensity (6.6s)
+✔ [3343/3344] Built SubcriticalCauchy (7.1s)
+Build completed successfully (3344 jobs).
+lake build SubcriticalCauchy  17.45s user 23.11s system 115% cpu 35.134 total

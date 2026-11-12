@@ -1,0 +1,5 @@
+✔ [3238/3242] Built SubcriticalCauchy.MaximumSwapBridge (7.2s)
+✔ [3239/3242] Built SubcriticalCauchy.MaximumSwapLaw (6.8s)
+✔ [3240/3242] Built SubcriticalCauchy.LocalMassWindows (15s)
+✔ [3241/3242] Built SubcriticalCauchy (5.9s)
+Build completed successfully (3242 jobs).

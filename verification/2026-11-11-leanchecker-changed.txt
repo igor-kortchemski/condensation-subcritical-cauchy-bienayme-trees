@@ -1,0 +1,9 @@
+Kernel replay of the four modules whose proofs were rewritten for the Challenge (11 November 2026).
+Command: LEAN_NUM_THREADS=2 lake env leanchecker -v BGW.Tree.Vertices BGW.Tree.LocallyFinite BGW.LocallyFinite.Prune SubcriticalCauchy.MaxDegree
+
+replaying SubcriticalCauchy.MaxDegree
+replaying BGW.LocallyFinite.Prune
+replaying BGW.Tree.LocallyFinite
+replaying BGW.Tree.Vertices
+LEAN_NUM_THREADS=2 lake env leanchecker -v BGW.Tree.Vertices     13.61s user 52.76s system 100% cpu 1:06.08 total
+exit=0

@@ -1,0 +1,9 @@
+⚠ [3358/3365] Replayed SubcriticalCauchy.MainTheorems
+warning: SubcriticalCauchy/MainTheorems.lean:62:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:70:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:79:8: declaration uses `sorry`
+✔ [3361/3365] Built SubcriticalCauchy.WeakRecordRenewalAux (36s)
+✔ [3362/3365] Built SubcriticalCauchy.ExplorationLaw (37s)
+✔ [3363/3365] Built SubcriticalCauchy.WeakRecordRenewal (25s)
+✔ [3364/3365] Built SubcriticalCauchy (20s)
+Build completed successfully (3365 jobs).

@@ -1,0 +1,8 @@
+⚠ [3356/3360] Replayed SubcriticalCauchy.MainTheorems
+warning: SubcriticalCauchy/MainTheorems.lean:62:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:70:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:79:8: declaration uses `sorry`
+✔ [3357/3360] Built SubcriticalCauchy.DeletionPositionLawAux (20s)
+✔ [3358/3360] Built SubcriticalCauchy.DeletionPositionLaw (25s)
+✔ [3359/3360] Built SubcriticalCauchy (12s)
+Build completed successfully (3360 jobs).

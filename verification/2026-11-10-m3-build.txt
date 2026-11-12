@@ -1,0 +1,7 @@
+✔ [3362/3366] Built SubcriticalCauchy.M3Transfer (33s)
+✔ [3363/3366] Built SubcriticalCauchy.MainProofs.M3 (21s)
+⚠ [3364/3366] Built SubcriticalCauchy.MainTheorems (16s)
+warning: SubcriticalCauchy/MainTheorems.lean:70:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:79:8: declaration uses `sorry`
+✔ [3365/3366] Built SubcriticalCauchy (16s)
+Build completed successfully (3366 jobs).

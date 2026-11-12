@@ -1,0 +1,11 @@
+{
+  "commit": "87dbd05bd4eebb17190b4054185562529ae8d41a",
+  "tree": "76e5d15b9ce9e028021a6fb810dac7f3d7477fd9",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "platform": "linux",
+  "lean_version": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "lake_version": "Lake version 5.0.0-src+eb6cafb (Lean version 4.35.0)",
+  "git_status": "clean",
+  "started_utc": "2026-11-11T18:37:02Z",
+  "verified_unchanged_at_end": true
+}

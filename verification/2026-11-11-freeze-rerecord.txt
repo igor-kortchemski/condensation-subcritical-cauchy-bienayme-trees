@@ -1,0 +1,17 @@
+Re-recorded freeze records, 11 November 2026, at commit e11c71c, after adding the Challenge and Solution libraries to lakefile.toml.
+All holes are filled, so the statement files are now frozen whole (--file).
+Compared with the approved records: every declaration hash and every dependency .olean hash is identical; only the lakefile fingerprint changed (27bc6a77 -> 5656e73e).
+
+New record SHA-256:
+record-2026-11-10-v2 cc7dae4ff68367b9e8729f9bff357ee46f69cb7d63bd802f98021ce642831ce7
+record-2026-11-10b-v2 b202a533eed27703e2d09ce14d3f106ca8ca049b5ff1672e0cdcf02988bd0ab9
+record-2026-11-10c-v2 942cf9573bf9de774faa94ba610eff4c54087de26f8caacce7f75a664e3ea9ae
+record-2026-11-11-v2 68cd144b108e3d5aa796b8508d8275262dae30b5e931bd6c651fdfcdb7b7b401
+record-2026-11-11b-v2 941334b31cdbb01a13c920ba191b96b7a87b09137022e57dff71dff9ac4d031f
+
+Checks:
+record-2026-11-10-v2 PASS
+record-2026-11-10b-v2 PASS
+record-2026-11-10c-v2 PASS
+record-2026-11-11-v2 PASS
+record-2026-11-11b-v2 PASS

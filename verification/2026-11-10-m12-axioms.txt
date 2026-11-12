@@ -1,0 +1,32 @@
+'SubcriticalCauchy.Bienayme.abs_measureReal_sub_le_tvDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.measureReal_le_add_tvDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.pi_incrementLaw_eq_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.ofFn_deletedIncrements' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.maxDegree_eq_deletedIncrements_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.pi_incrementLaw_condensation_event_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.main_maxDegree_condensation_real' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.secondMaxDegree_eq_incrementMaximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.pi_incrementLaw_secondMaximum_event_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.main_secondMaxDegree_negligible_real' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.main_maxDegree_condensation' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.main_secondMaxDegree_negligible' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

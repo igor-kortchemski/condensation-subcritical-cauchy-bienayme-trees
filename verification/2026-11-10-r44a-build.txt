@@ -1,0 +1,10 @@
+✔ [3239/3255] Built SubcriticalCauchy.TailPrefixMoments (12s)
+✔ [3248/3255] Built SubcriticalCauchy.AbelianCutoffSqueeze (13s)
+✔ [3249/3255] Built SubcriticalCauchy.SlowTailPartialSums (14s)
+✔ [3250/3255] Built SubcriticalCauchy.CorrectionKernel (15s)
+✔ [3251/3255] Built SubcriticalCauchy.FirstMomentTail (6.9s)
+✔ [3252/3255] Built SubcriticalCauchy.CorrectionCutoffs (7.2s)
+✔ [3253/3255] Built SubcriticalCauchy.CorrectionAsymptotics (6.7s)
+✔ [3254/3255] Built SubcriticalCauchy (5.0s)
+Build completed successfully (3255 jobs).
+lake build SubcriticalCauchy  28.66s user 35.66s system 122% cpu 52.395 total

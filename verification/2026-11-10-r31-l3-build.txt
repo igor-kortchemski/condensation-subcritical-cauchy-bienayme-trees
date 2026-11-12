@@ -1,0 +1,10 @@
+⚠ [3333/3347] Replayed SubcriticalCauchy.Theorem31
+warning: SubcriticalCauchy/Theorem31.lean:39:8: declaration uses `sorry`
+⚠ [3343/3347] Replayed SubcriticalCauchy.MainTheorems
+warning: SubcriticalCauchy/MainTheorems.lean:62:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:70:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:79:8: declaration uses `sorry`
+✔ [3344/3347] Built SubcriticalCauchy.TruncatedExponentialAux (22s)
+✔ [3345/3347] Built SubcriticalCauchy.TruncatedExponential (17s)
+✔ [3346/3347] Built SubcriticalCauchy (5.8s)
+Build completed successfully (3347 jobs).

@@ -1,0 +1,5 @@
+✔ [3288/3291] Built SubcriticalCauchy.SurvivalCriterionAux (26s)
+✔ [3289/3291] Built SubcriticalCauchy.SurvivalCriterion (8.0s)
+✔ [3290/3291] Built SubcriticalCauchy (14s)
+Build completed successfully (3291 jobs).
+lake build SubcriticalCauchy  22.83s user 23.04s system 69% cpu 1:06.05 total

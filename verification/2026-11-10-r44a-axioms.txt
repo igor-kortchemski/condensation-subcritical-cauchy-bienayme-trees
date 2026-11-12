@@ -1,0 +1,7 @@
+'SubcriticalCauchy.Bienayme.paper_survival_correction_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survivalCorrection_div_ellStarReal_tendsto_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.survivalCorrection_slowlyVarying_atZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

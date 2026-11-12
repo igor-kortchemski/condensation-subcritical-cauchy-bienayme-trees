@@ -1,0 +1,67 @@
+Resolving dependencies
+Building Challenge
+⚠ [3142/3143] Replayed Challenge
+warning: Challenge.lean:712:8: declaration uses `sorry`
+warning: Challenge.lean:719:8: declaration uses `sorry`
+warning: Challenge.lean:726:8: declaration uses `sorry`
+warning: Challenge.lean:733:8: declaration uses `sorry`
+warning: Challenge.lean:740:8: declaration uses `sorry`
+warning: Challenge.lean:749:8: declaration uses `sorry`
+warning: Challenge.lean:756:8: declaration uses `sorry`
+warning: Challenge.lean:764:8: declaration uses `sorry`
+warning: Challenge.lean:772:8: declaration uses `sorry`
+warning: Challenge.lean:780:8: declaration uses `sorry`
+warning: Challenge.lean:783:8: declaration uses `sorry`
+warning: Challenge.lean:792:8: declaration uses `sorry`
+warning: Challenge.lean:801:8: declaration uses `sorry`
+warning: Challenge.lean:814:8: declaration uses `sorry`
+warning: Challenge.lean:829:8: declaration uses `sorry`
+warning: Challenge.lean:838:8: declaration uses `sorry`
+warning: Challenge.lean:846:8: declaration uses `sorry`
+warning: Challenge.lean:864:8: declaration uses `sorry`
+warning: Challenge.lean:871:8: declaration uses `sorry`
+warning: Challenge.lean:903:8: declaration uses `sorry`
+Build completed successfully (3143 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubcriticalCauchy.Bienayme.main_maxDegree_condensation, SubcriticalCauchy.Bienayme.main_secondMaxDegree_negligible, SubcriticalCauchy.Bienayme.main_maxDegreeDepth_geometric, SubcriticalCauchy.Bienayme.main_height_log, SubcriticalCauchy.Bienayme.main_height_tight_iff, SubcriticalCauchy.Bienayme.paper_deleted_maximum_tvDist, SubcriticalCauchy.Bienayme.paper_attached_forest_tvDist, SubcriticalCauchy.Bienayme.paper_height_lower, SubcriticalCauchy.Bienayme.paper_height_upper, SubcriticalCauchy.Bienayme.exists_cauchyOneLaw, SubcriticalCauchy.Bienayme.paper_stable_limit, SubcriticalCauchy.Bienayme.paper_maxDegree_fluctuations, SubcriticalCauchy.Bienayme.paper_height_second_order_log, SubcriticalCauchy.Bienayme.paper_height_second_order_pow, SubcriticalCauchy.Bienayme.berger_local_limit, SubcriticalCauchy.Bienayme.paper_eq26, SubcriticalCauchy.Bienayme.paper_eq33, SubcriticalCauchy.Bienayme.paper_route_deleted_maximum_tvDist, SubcriticalCauchy.Bienayme.paper_heavyTail_classification, SubcriticalCauchy.ArmendarizLoulakis.al_criterion, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+ℹ [3478/3585] Replayed SubcriticalCauchy.StableLaplaceAux
+info: SubcriticalCauchy/StableLaplaceAux.lean:278:97: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+ℹ [3481/3585] Replayed SubcriticalCauchy.StableOneStepTail
+info: SubcriticalCauchy/StableOneStepTail.lean:468:64: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+ℹ [4062/4119] Replayed SubcriticalCauchy.HeightSecondOrder
+info: SubcriticalCauchy/HeightSecondOrder.lean:240:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+ℹ [4084/4119] Replayed SubcriticalCauchy.ExampleScalesIIIAux
+info: SubcriticalCauchy/ExampleScalesIIIAux.lean:61:27: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: SubcriticalCauchy/ExampleScalesIIIAux.lean:334:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Build completed successfully (4119 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubcriticalCauchy.Bienayme.main_maxDegree_condensation, SubcriticalCauchy.Bienayme.main_secondMaxDegree_negligible, SubcriticalCauchy.Bienayme.main_maxDegreeDepth_geometric, SubcriticalCauchy.Bienayme.main_height_log, SubcriticalCauchy.Bienayme.main_height_tight_iff, SubcriticalCauchy.Bienayme.paper_deleted_maximum_tvDist, SubcriticalCauchy.Bienayme.paper_attached_forest_tvDist, SubcriticalCauchy.Bienayme.paper_height_lower, SubcriticalCauchy.Bienayme.paper_height_upper, SubcriticalCauchy.Bienayme.exists_cauchyOneLaw, SubcriticalCauchy.Bienayme.paper_stable_limit, SubcriticalCauchy.Bienayme.paper_maxDegree_fluctuations, SubcriticalCauchy.Bienayme.paper_height_second_order_log, SubcriticalCauchy.Bienayme.paper_height_second_order_pow, SubcriticalCauchy.Bienayme.berger_local_limit, SubcriticalCauchy.Bienayme.paper_eq26, SubcriticalCauchy.Bienayme.paper_eq33, SubcriticalCauchy.Bienayme.paper_route_deleted_maximum_tvDist, SubcriticalCauchy.Bienayme.paper_heavyTail_classification, SubcriticalCauchy.ArmendarizLoulakis.al_criterion, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

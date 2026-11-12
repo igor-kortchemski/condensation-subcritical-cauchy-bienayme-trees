@@ -1,0 +1,7 @@
+'SubcriticalCauchy.Bienayme.survival_div_mean_pow_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_div_mean_pow_tendsto_pos_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.survival_div_mean_pow_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,18 @@
+'SubcriticalCauchy.TiltingFacts.supercritical_equivalent_critical_U24' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.exists_critical_finite_second_tilt_of_supercritical_U25' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.centered_lattice_window_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.corrected_window_eventually_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.exteriorSize_tight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.stableKernelIntegral_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.berger_annular_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.TiltingCounterexample.critical_equivalence_boundary_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.SupercriticalTiltingCounterexample.supercritical_equivalence_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.centered_lattice_window_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]

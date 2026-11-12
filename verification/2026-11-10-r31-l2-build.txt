@@ -1,0 +1,14 @@
+⚠ [3328/3345] Replayed SubcriticalCauchy.MainTheorems
+warning: SubcriticalCauchy/MainTheorems.lean:38:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:47:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:56:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:64:8: declaration uses `sorry`
+warning: SubcriticalCauchy/MainTheorems.lean:73:8: declaration uses `sorry`
+⚠ [3338/3345] Replayed SubcriticalCauchy.Theorem31
+warning: SubcriticalCauchy/Theorem31.lean:39:8: declaration uses `sorry`
+✔ [3341/3345] Built SubcriticalCauchy.LatticeConcentrationAux (23s)
+✔ [3342/3345] Built SubcriticalCauchy.LatticeSmallFrequency (12s)
+✔ [3343/3345] Built SubcriticalCauchy.LatticeConcentration (27s)
+✔ [3344/3345] Built SubcriticalCauchy (7.1s)
+Build completed successfully (3345 jobs).
+lake build SubcriticalCauchy  43.20s user 24.21s system 82% cpu 1:21.65 total

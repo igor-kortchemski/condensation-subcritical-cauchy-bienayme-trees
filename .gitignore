@@ -1,0 +1,10 @@
+/.lake/
+.DS_Store
+.beam/
+.orchestration/
+erratum-ECP2025.aux
+erratum-ECP2025.fdb_latexmk
+erratum-ECP2025.fls
+erratum-ECP2025.log
+erratum-ECP2025.out
+erratum-ECP2025.synctex.gz

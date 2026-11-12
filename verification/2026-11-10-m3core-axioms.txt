@@ -1,0 +1,73 @@
+'SubcriticalCauchy.Bienayme.iid_walk_hits_negative_level_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.prefixSum_stepWord_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkSum_nonneg_before_firstPassage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.isTreeExcursion_firstPassage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.existsUnique_tree_firstPassage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.pi_treeExcursion_eq_sizeEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage_eq_iff_treeExcursion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_walkFirstPassage_eq_sizeEvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_nat_eq_tsum_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_nat_eq_tsum_atoms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_totalProgeny_eq_tsum_sizeEvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_iid_walkFirstPassage_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.tsum_iid_walkFirstPassage_one_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_walkFirstPassage_mem_eq_totalProgeny' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.weakRecordTimes_finite_of_negative_drift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_weakRecordTimes_finite_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.infiniteWeakRecordCount_eq_ncard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_infiniteWeakRecordCount_lt_top_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.measurableSet_weakRecordTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.measurable_infiniteWeakRecordCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.walkSum_add_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.weakRecordTime_add_iff_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.tendsto_measure_nat_eq_of_ae_eventually_cast_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.weakRecordCount_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.weakRecordCount_prefix_eventually_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_weakRecordCount_prefix_eventually_eq_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.stepWord_rev' depends on axioms: [propext, Quot.sound]
+'SubcriticalCauchy.Bienayme.piCongrLeft_rev_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.pi_weakRecordCount_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_weakRecordCount_prefix_probability_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_reversed_weakRecordCount_probability_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.walkFirstPassage_gt_iff_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.iid_weakRecordTime_probability_eq_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_infiniteWeakRecordCount_eq_tsum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubcriticalCauchy.Bienayme.lintegral_infiniteWeakRecordCount_add_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
