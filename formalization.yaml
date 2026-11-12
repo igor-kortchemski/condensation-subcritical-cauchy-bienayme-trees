@@ -3,14 +3,18 @@ version: v0.4
 project:
   name: Condensation in subcritical Cauchy Bienaymé trees
   description: >-
-    Lean 4 and Mathlib formalization of every result of the paper, four of them
-    in corrected form: condensation of the maximal degree, the geometric height
-    of the condensation vertex and the logarithmic height of size-conditioned
-    subcritical Bienaymé trees whose offspring law is in the Cauchy domain of
-    attraction, the one-big-jump principle behind them (by two proofs, one
-    following the paper through the Armendáriz–Loulakis criterion and Berger's
-    local limit theorem), the stable limit, the fluctuations of the maximal
-    degree and the second-order height asymptotics.
+    Lean 4 and Mathlib formalization of Condensation in subcritical Cauchy
+    Bienaymé trees (Kortchemski–Vetter, arXiv:2503.07530v2). For size-conditioned
+    subcritical Bienaymé trees with offspring probabilities asymptotic to
+    L(n)/n², where L is measurable and slowly varying, the development proves
+    condensation of the maximal degree, the geometric depth of the condensation
+    vertex, logarithmic tree height and its tightness criterion. It also proves
+    the underlying one-big-jump principle by two routes, the stable limit,
+    maximal-degree fluctuations and second-order height asymptotics. Four source
+    statements are formalized in corrected form, with the corrections documented.
+    Background assertions refuted by counterexamples and external citations are
+    distinguished in the coverage report. The comparison interface contains
+    twenty results whose proofs use only the three standard axioms.
   authors:
     - Igor Kortchemski
   license: Apache-2.0
