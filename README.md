@@ -102,9 +102,7 @@ with the same definitions, using only the permitted axioms
 The formalization was produced with AI agents: Codex, then Claude Code
 (Claude Opus 5.5) as coordinator, with Lean written mainly by Kimi K3.1 Pro
 and GPT-6.1 Sol, research by GPT-6 Astra, and independent statement and
-coverage audits by Claude Sonnet 5.5 and GPT-6.1 Sol. Igor Kortchemski, an
-author of the paper, checked the main Lean statements against the paper before
-they were proved. The
+coverage audits by Claude Sonnet 5.5 and GPT-6.1 Sol. The
 Lean kernel checks the proofs; no human has reviewed them line by line.
 
 ## License and citation
