@@ -1,9 +1,17 @@
 # Verification records
 
-These records concern the current partial development under Lean 4.35.0 and
-the pinned Mathlib revision. They do not certify whole-paper
-coverage, source fidelity by themselves, or Palomar acceptance.
+These records concern the development under Lean 4.35.0 and the pinned
+Mathlib revision, listed newest first. They do not certify source fidelity by
+themselves, or Palomar acceptance.
 
+- `2026-11-12-official-comparator/`: the official sandboxed `lake comparator`
+  with NanoDa and the Lean kernel, passed on Linux on 12 November 2026 in
+  GitHub Actions run 43164576822 on commit `e112dcf`, the first commit of the
+  public repository: identity, source scan, build log, axiom audit and
+  Comparator log. The build workflow (build, axiom audit, `leanchecker` replay)
+  passed on the same commit in run 43164523853. The records below, of 11
+  November, concern earlier candidate commits with the same Lean code, which
+  are not in the public history.
 - `2026-11-11-official-comparator-final/`: the same official check on the final
   candidate `87dbd05` (export of `051c545`, Challenge docstrings revised, code
   unchanged), run 43078769747: passed.
@@ -12,7 +20,7 @@ coverage, source fidelity by themselves, or Palomar acceptance.
   docstring revision.
 - `2026-11-11-official-comparator/`: the official sandboxed `lake comparator`
   with NanoDa and the Lean kernel, passed on Linux in GitHub Actions run
-  43072119896 of the private repository, commit `ab42946` (export of `18e8a4e`):
+  43072119896, commit `ab42946` (export of `18e8a4e`):
   identity, source scan, build log, axiom audit and Comparator log.
 - `2026-11-11-local-comparator/`: the local macOS diagnostic (not the official
   tool) of the same interface: statements and reachable constants match, only

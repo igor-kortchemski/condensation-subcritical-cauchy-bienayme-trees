@@ -808,8 +808,14 @@ It is distinct from NanoDa and from fresh replay of all dependency declarations.
   re-recorded (`-v2`), freezing the completed statement files whole; every
   declaration hash and dependency `.olean` hash is identical to the approved
   records ([record](verification/2026-11-11-freeze-rerecord.txt)).
-- **Not done.** The Palomar mechanical report needs a public repository and
-  was not run. The repository is private; nothing is published.
+- **Public repository (12 November 2026).** At the author's request the
+  repository was recreated with a single commit, `e112dcf`, with the same files
+  as `29c42d8` (the export of `72139d7`), so that its history leaves out
+  records for the authors only; the earlier history is kept in a private
+  backup. The build workflow (run 43164523853) and the official Comparator
+  (run 43164576822, [evidence](verification/2026-11-12-official-comparator/))
+  passed on `e112dcf`, and the repository was made public.
+- **Not done.** The Palomar mechanical report was not run.
 
 ## Unresolved obligations and publication
 

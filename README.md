@@ -94,7 +94,7 @@ push. The [Comparator workflow](.github/workflows/comparator.yml) runs
 `lake comparator` on Linux with NanoDa and the Lean kernel: it checks that
 [Solution.lean](Solution.lean) proves the statements of `Challenge.lean`,
 with the same definitions, using only the permitted axioms
-([comparator.json](comparator.json)). Its last recorded pass, on 11 November
+([comparator.json](comparator.json)). Its last recorded pass, on 12 November
 2026, is in [verification/](verification/README.md).
 
 ## How it was made
