@@ -60,8 +60,7 @@ automation:
       tool_setup: >-
         Lean 4.35.0 and Mathlib v4.35.0, the lean-autoformalization skills, a
         Claude Code coordinator with background Codex workers writing the Lean,
-        independent agent audits of statements and coverage, and the author's
-        approval of the main statements before their proofs.
+        and independent agent audits of statements and coverage.
       cost:
         wall_time: not tracked
         spend_usd: not tracked
@@ -87,11 +86,11 @@ fidelity:
     MANUSCRIPT_RECOMMENDATIONS.md. The erratum erratum-ECP2025.pdf gives every
     correction with its location in the journal version.
 review:
-  status: statements approved by an author of the paper; agent-audited; proofs kernel-checked, not human-reviewed
-  reviewers: [Igor Kortchemski (statements), Claude Sonnet 5.5 and GPT-6.1 Sol audit agents]
+  status: agent-audited; proofs kernel-checked, not human-reviewed
+  reviewers: [Claude Sonnet 5.5 and GPT-6.1 Sol audit agents]
   notes: >-
     The official lake comparator with NanoDa and the Lean kernel passed on
-    Linux on 11 November 2026; see verification/README.md.
+    Linux on 12 November 2026; see verification/README.md.
 alignment:
   namespace: SubcriticalCauchy
   statements:
