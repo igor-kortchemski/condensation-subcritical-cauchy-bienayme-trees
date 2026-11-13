@@ -10,7 +10,11 @@ project:
     condensation of the maximal degree, the geometric depth of the condensation
     vertex, logarithmic tree height and its tightness criterion. It also proves
     the underlying one-big-jump principle by two routes, the stable limit,
-    maximal-degree fluctuations and second-order height asymptotics. Four source
+    maximal-degree fluctuations and second-order height asymptotics. The
+    development also proves the corrected five-case classification of heavy-tailed
+    offspring laws up to Kennedy equivalence (exponential tilting), including
+    critical and subcritical cases, under the necessary assumption of positive
+    mass at zero. Four source
     statements are formalized in corrected form, with the corrections documented.
     Background assertions refuted by counterexamples and external citations are
     distinguished in the coverage report. The comparison interface contains
